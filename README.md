@@ -38,4 +38,6 @@ First, turn on the robot:
 - Turn the robot to _Remote control_ at the top right of the pendant.
 - Check in your terminal if the computer sees the robot: ```ping theRobotIPadsress```. If it replies, you are good to go.
 
+## Resources
 
+To program with the ur_rtde library use the API documentation: https://sdurobotics.gitlab.io/ur_rtde/pages/reference/api.html

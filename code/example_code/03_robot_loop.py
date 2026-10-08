@@ -1,6 +1,6 @@
 ############################################################
 ##
-## 02_robot_loop.py
+## 03_robot_loop.py
 ## author: Sam Bourgault
 ## date: 2026-10-08
 ## place: ETH Zurich
@@ -22,7 +22,7 @@ tcp_pose = rtde_r.getActualTCPPose()
 print("TCP pose at home:", tcp_pose[:3])
 
 # initiate variables
-robot_TCP_z_move = 0.05
+robot_TCP_z_move = -0.05
 
 # start main loop
 try:

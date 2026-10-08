@@ -1,6 +1,6 @@
 ############################################################
 ##
-## 01_move_robot.py
+## 02_move_robot.py
 ## author: Sam Bourgault
 ## date: 2026-10-08
 ## place: ETH Zurich
@@ -9,7 +9,7 @@
 ##
 ############################################################
 
-#first you import the necessary libraries
+# first you import the necessary libraries
 from rtde_control import RTDEControlInterface as RTDEControl
 from rtde_receive import RTDEReceiveInterface as RTDEReceive
 
