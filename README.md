@@ -20,6 +20,7 @@ To install and use ur_rtde, you will need Python 3.12 or earlier. Check on your 
 - Run ```conda activate nameOfYourEnv```
 - Run ```python -m pip install ur_rtde``` 
 - Check the library is properly installed, run ```python -c "import rtde_control; print('ur_rtde works')"``` 
+- Lastly, to have Compas in your environment, run from your environment, ```conda install -c conda-forge compas```. It will install the lastest version. Current 2.15.1
 
 #### If you are already running python < 3.12 on your machine
 
