@@ -23,18 +23,18 @@ tcp_pose = rtde_r.getActualTCPPose()
 print("TCP pose at home:", tcp_pose[:3])
 
 # move robot up by 5 cm in Z using moveL (Cartesian linear move)
-pose_up = tcp_pose[:]
+pose_up = tcp_pose
 pose_up[2] += 0.05
 # arguments for moveL are: pose, speed [m/s], acceleration [m/s^2]
-rtde_c.moveL(pose_up, 0.25, 0.5)
+rtde_c.moveL(pose_up, 0.05, 0.1)
 
 # move 5 cm in X
-pose_side = pose_up[:]
+pose_side = pose_up
 pose_side[0] += 0.05
-rtde_c.moveL(pose_side, 0.25, 0.5)
+rtde_c.moveL(pose_side, 0.05, 0.1)
 
 # return to initial TCP pose
-rtde_c.moveL(tcp_pose, 0.25, 0.5)
+rtde_c.moveL(tcp_pose, 0.05, 0.1)
 
 # quit program
 rtde_c.stopScript()

@@ -17,11 +17,10 @@ from rtde_receive import RTDEReceiveInterface as RTDEReceive
 rtde_c = RTDEControl("169.254.10.10")
 rtde_r = RTDEReceive("169.254.10.10")
 
-
 # print the robot's current TCP pose
 # Pose: [x, y, z, rx, ry, rz] in meters and axis-angle [rad]
 tcp_pose = rtde_r.getActualTCPPose()
-print("TCP pose at home:", tcp_pose[:3])
+print("TCP pose at home:", tcp_pose)
 
 # quit program
 rtde_c.stopScript()

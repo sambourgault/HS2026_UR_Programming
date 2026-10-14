@@ -12,7 +12,10 @@ To install and use ur_rtde, you will need Python 3.12 or earlier. Check on your 
 
 #### If you use an environment
 
-- Download miniconda.
+- Download miniconda: https://www.anaconda.com/download/success?reg=skipped-miniconda 
+    - When you download miniconda make sure to check: Add miniconda to PATH
+    - Open VS code, open anew terminal, enable conda in powershell through this command ```conda init powershell```
+    - Close VS code and reopen. The 
 - Run ```conda create -n nameOfYourEnv python=3.9.11```
 - Run ```conda activate nameOfYourEnv```
 - Run ```python -m pip install ur_rtde``` 
@@ -41,3 +44,5 @@ First, turn on the robot:
 ## Resources
 
 To program with the ur_rtde library use the API documentation: https://sdurobotics.gitlab.io/ur_rtde/pages/reference/api.html
+
+Github repo: 

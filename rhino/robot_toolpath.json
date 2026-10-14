@@ -1,0 +1,256 @@
+{
+    "workobject": {
+        "dtype": "compas.geometry/Frame",
+        "data": {
+            "point": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "xaxis": [
+                1.0,
+                0.0,
+                0.0
+            ],
+            "yaxis": [
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "guid": "bc322db0-fea2-4bce-951e-a46e5b79d0eb"
+    },
+    "frames": [
+        {
+            "dtype": "compas.geometry/Frame",
+            "data": {
+                "point": [
+                    10.0,
+                    10.0,
+                    0.0
+                ],
+                "xaxis": [
+                    -1.0,
+                    -0.0,
+                    -0.0
+                ],
+                "yaxis": [
+                    -0.0,
+                    1.0,
+                    0.0
+                ]
+            },
+            "guid": "7df88779-1b99-44ae-abe8-1f35a4107a1d"
+        },
+        {
+            "dtype": "compas.geometry/Frame",
+            "data": {
+                "point": [
+                    10.399999999999999,
+                    10.0,
+                    -0.4
+                ],
+                "xaxis": [
+                    -1.0,
+                    -0.0,
+                    -0.0
+                ],
+                "yaxis": [
+                    -0.0,
+                    1.0,
+                    0.0
+                ]
+            },
+            "guid": "70c5474b-2b6e-4da6-b22d-dc02a409e3a6"
+        },
+        {
+            "dtype": "compas.geometry/Frame",
+            "data": {
+                "point": [
+                    10.8,
+                    10.0,
+                    -0.8
+                ],
+                "xaxis": [
+                    -1.0,
+                    -0.0,
+                    -0.0
+                ],
+                "yaxis": [
+                    -0.0,
+                    1.0,
+                    0.0
+                ]
+            },
+            "guid": "398fa781-1045-45e1-b4e8-9c265b7a9ba8"
+        },
+        {
+            "dtype": "compas.geometry/Frame",
+            "data": {
+                "point": [
+                    11.2,
+                    10.0,
+                    -1.2000000000000002
+                ],
+                "xaxis": [
+                    -1.0,
+                    -0.0,
+                    -0.0
+                ],
+                "yaxis": [
+                    -0.0,
+                    1.0,
+                    0.0
+                ]
+            },
+            "guid": "8f2dca7d-7dc8-4178-9749-70c2612964e1"
+        },
+        {
+            "dtype": "compas.geometry/Frame",
+            "data": {
+                "point": [
+                    11.600000000000001,
+                    10.0,
+                    -1.6
+                ],
+                "xaxis": [
+                    -1.0,
+                    -0.0,
+                    -0.0
+                ],
+                "yaxis": [
+                    -0.0,
+                    1.0,
+                    0.0
+                ]
+            },
+            "guid": "56412f64-b50c-49c2-b946-05d55059dfdc"
+        },
+        {
+            "dtype": "compas.geometry/Frame",
+            "data": {
+                "point": [
+                    12.0,
+                    10.0,
+                    -2.0
+                ],
+                "xaxis": [
+                    -1.0,
+                    -0.0,
+                    -0.0
+                ],
+                "yaxis": [
+                    -0.0,
+                    1.0,
+                    0.0
+                ]
+            },
+            "guid": "e1daed98-c995-4243-a7eb-985958bb0288"
+        },
+        {
+            "dtype": "compas.geometry/Frame",
+            "data": {
+                "point": [
+                    12.4,
+                    10.0,
+                    -1.6
+                ],
+                "xaxis": [
+                    -1.0,
+                    -0.0,
+                    -0.0
+                ],
+                "yaxis": [
+                    -0.0,
+                    1.0,
+                    0.0
+                ]
+            },
+            "guid": "2b301e5b-b5a9-4ce6-815a-96d333502daa"
+        },
+        {
+            "dtype": "compas.geometry/Frame",
+            "data": {
+                "point": [
+                    12.799999999999999,
+                    10.0,
+                    -1.2
+                ],
+                "xaxis": [
+                    -1.0,
+                    -0.0,
+                    -0.0
+                ],
+                "yaxis": [
+                    -0.0,
+                    1.0,
+                    0.0
+                ]
+            },
+            "guid": "8516888e-3db7-4612-be45-668106ff2904"
+        },
+        {
+            "dtype": "compas.geometry/Frame",
+            "data": {
+                "point": [
+                    13.2,
+                    10.0,
+                    -0.8000000000000003
+                ],
+                "xaxis": [
+                    -1.0,
+                    -0.0,
+                    -0.0
+                ],
+                "yaxis": [
+                    -0.0,
+                    1.0,
+                    0.0
+                ]
+            },
+            "guid": "c9f2cb8f-7d1b-421e-95c7-aafcda85a0f9"
+        },
+        {
+            "dtype": "compas.geometry/Frame",
+            "data": {
+                "point": [
+                    13.599999999999998,
+                    10.0,
+                    -0.4000000000000004
+                ],
+                "xaxis": [
+                    -1.0,
+                    -0.0,
+                    -0.0
+                ],
+                "yaxis": [
+                    -0.0,
+                    1.0,
+                    0.0
+                ]
+            },
+            "guid": "364815b7-aeac-48cd-9d6b-2c265d5c4893"
+        },
+        {
+            "dtype": "compas.geometry/Frame",
+            "data": {
+                "point": [
+                    14.0,
+                    10.0,
+                    0.0
+                ],
+                "xaxis": [
+                    -1.0,
+                    -0.0,
+                    -0.0
+                ],
+                "yaxis": [
+                    -0.0,
+                    1.0,
+                    0.0
+                ]
+            },
+            "guid": "1b417c5c-cbf3-40ef-a698-5fa183bbd3ad"
+        }
+    ]
+}
