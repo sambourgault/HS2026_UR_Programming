@@ -23,7 +23,7 @@ from utils.pose_to_frame import pose_to_frame
 # define the base and recording folders
 BASE_DIR = Path(__file__).resolve().parent
 current_recording_index = 0
-recording_filename = (BASE_DIR / "recordings" / time.strftime("session_%Y_%m_%d_")+str(current_recording_index))
+recording_filename = (BASE_DIR / "recordings" / f"session_{time.strftime('%Y_%m_%d')}_{current_recording_index}.csv")
 print("Recording folder:", recording_filename)
 
 # thread variables
@@ -36,7 +36,10 @@ robot_mode = 0 # 0 for idle (free drive), 1 for recording (force mode), 2 for re
 def new_filename():
     global current_recording_index, recording_filename
     current_recording_index += 1
-    recording_filename = (BASE_DIR / "recordings" / time.strftime("session_%Y_%m_%d_")+str(current_recording_index))
+    recording_filename = (
+    BASE_DIR
+    / "recordings"
+    / f"session_{time.strftime('%Y_%m_%d')}_{current_recording_index}.csv")
     print("Recording folder:", recording_filename)
 
 def pose_to_json_frame(pose):
@@ -100,7 +103,7 @@ def robot_loop():
                     # if switching from force mode to free drive, save the recorded data if any
                     if robot_mode == 1 and recording_data["frames"]:
                         json_dump(recording_data, recording_filename)
-                        print("Saved " + str(len(recording_data['frames'])) + " frames to " + recording_filename)
+                        print(f"Saved {len(recording_data['frames'])} frames to {recording_filename}")
                         new_filename()
 
                     robot_mode = 0
