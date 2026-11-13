@@ -148,7 +148,7 @@ def robot_loop():
             # robot mode = 1 (recording in forcemode)
             elif robot_mode == 1:
                 # start force mode
-                free_axes = [1, 1, 1, 0, 0, 0]
+                free_axes = [1, 1, 1, 0, 0, 1]
                 currentTCP = rtde_r.getActualTCPPose() 
                 base = [0,0,0,0,0,0]
                 speed = [0.15,0.15,0.15,.785,.785,0.785]
